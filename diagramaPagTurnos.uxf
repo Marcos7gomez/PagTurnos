@@ -1,0 +1,38 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>390</x><y>40</y><w>210</w><h>190</h></coordinates><panel_attributes>MySQL
+--
+Gestion de usuarios
+Turnos disponibles
+Turnos agendados
+--
+Nombre Dueño
+Usuario
+Contraseña
+Nombre de mascota
+--
+Dia/Mes/Año/Hora de turno</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>30</y><w>210</w><h>210</h></coordinates><panel_attributes>Python &amp; Flask
+--
+Gestion de usuarios
+Generar calendario
+Turno agendado
+--
+Métodos:
+agregar usuario
+eliminar usuario
+gestion de super usuario
+iniciar sesion
+agendar turno
+cancelar turno
+--
+Conexion a base de datos</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>40</y><w>210</w><h>190</h></coordinates><panel_attributes>HTML &amp; CSS
+--
+Página con menú scrolleable
+Animaciones de perros en dibujo
+--
+Mostrar calendario siempre en 
+pantalla con colores segun 
+disponibilidad de turnos
+menú deplegable para elegir 
+horario
+--
+Agregar animaciones a todos 
+los botones y menús</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>120</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>120</y><w>120</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;10;10;10</additional_attributes></element></diagram>
